@@ -1,0 +1,50 @@
+.cta {
+    box-sizing: border-box;
+    cursor: pointer;
+    border:none;
+}
+
+.cta--primary {
+color:white;
+background-color: #DB0111;
+}
+.cta--primary:hover{
+    background-color: #A4000D;
+}
+.cta--primary:active {
+    background-color: #83000A;
+}
+
+.cta--secondary {
+    color: white;
+    background-color: #4d6474;
+}
+.cta--secondary:hover {
+    background-color: #3e505c;
+}
+.cta--secondary:active {
+    background-color: #31404a;
+}
+
+.cta--tertiary {
+    color: #252525;
+    border: 1px solid #252525;
+    background-color: white;
+}
+.cta--tertiary:hover {
+    background-color: rgba(0,0,0,0.07);
+}
+.cta--tertiary:active{
+    background-color: rgba(0,0,0,0.15);
+}
+.cta--regular {
+    height:40px;
+    padding:0 20px;
+    font-size: 14px;
+}
+
+.cta--small {
+    height:30px;
+    padding: 0 10px;
+    font-size: 12px;
+}

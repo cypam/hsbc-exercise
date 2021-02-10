@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    line-height:1em;
+    color:#252525;
+}
+
+.card {
+    margin:10px 20px;
+    border:2px solid black;
+    border-left:0;
+    border-right: 0;
+}
+
+.card__top {
+    display: flex;
+    padding-bottom: 20px;
+}
+.card__bottom{
+    display: flex;
+    padding-bottom:18px;
+}
+.card__heading{
+    padding-top:17px;
+    flex:1;
+    padding-right: 20px;
+}
+
+.card__navigation {
+    padding-top:15px;
+    display: flex;
+}
+.card__controls {
+    display: flex;
+    align-items: center;
+}
+
+.card__actions {
+    display: flex;
+    align-items: center;
+}
+.card__action {
+    margin-right:10px;
+}
+.card__action:last-child {
+    margin-right: 0;
+}
+.card__control {
+    border-right:1px solid #767676;
+}
+.card__control:last-child {
+    border-right: none;
+}
+
+.card__title {
+    margin-bottom:11px;
+    font-weight: bold;
+}
+
+.card__details {
+    display:flex;
+    flex:1;
+}
+
+.detail {
+    border-left:1px solid #767676;
+    padding-left:10px;
+    padding-right:25px;
+}
+.detail__name {
+    margin-bottom:8px;
+    font-size:12px;
+    color:#767676;
+}
+.detail__value {
+    font-size:12px;
+    font-weight: bold;
+}
+
+.card__confidential {
+    margin-bottom: 18px;
+    font-size:12px;
+}
+
+.card__attachments {
+    margin-bottom: 18px; 
+    font-size:12px; 
+}
+
+.icon--confidental, .icon--attachment {
+       /*i used 14 instead of 12x13 for attachment icon because of the  consistency */
+    height: 14px;
+    width: 14px;
+}
+
+.icon--print, .icon--pdf{
+    height:18px;
+    width:18px;
+}
+
+.card__control {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+.excerpt {
+    font-weight: bold;
+}
+
+.card__fulldetails {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    color:#252525
+}
+
+.icon--fulldetails {
+    margin-left:8px;
+}

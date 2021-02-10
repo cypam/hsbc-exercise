@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="cta.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="card">
+    <div class="card__top">
+        <div class="card__heading">
+            <div class="card__title">
+                <span class="card__requesttype">Cancel / recall payment</span>,
+                <span class="card__amount">GBP 1,000.00</span>
+                </div>
+            <div class="card__subtitle">
+                <span class="card__iban">1234567890123456</span>
+                <span class="card__location">(GB)</span>,
+                <span class="card__accountholder">KUIML Business Company</span>
+            </div>
+        </div>
+        <div class="card__navigation">
+            <div class="card__controls">
+                <div class="card__control card__control--pdf"><i class="fas fa-file-pdf icon--pdf"></i></div>
+                <div class="card__control card__control--print"><i class="fas fa-print icon--print"></i></div>
+            </div>
+            <div class="card__actions">
+                <div class="card__action">
+                    <button class="cta cta--regular cta--tertiary">Reject</button>
+                </div>
+                <div class="card__action">
+                    <button class="cta cta--regular cta--secondary">Authorize</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="card__bottom">
+        <div class="card__details">
+            <div class="detail">
+                <div class="detail__name">Request reference
+                </div>
+                <div class="detail__value">SET29383ABCH </div>
+            </div>
+            <div class="detail">
+                <div class="detail__name">Category
+
+                </div>
+                <div class="detail__value">Payment</div>
+            </div>
+            <div class="detail">
+                <div class="detail__name">Request status
+                </div>
+                <div class="detail__value"><i class="fas fa-exclamation-triangle"></i> Pending authorisation</div>
+            </div>
+        </div>
+        <div class="card__fulldetails">
+            Full details<i class="fas fa-chevron-down icon--fulldetails"></i>
+        </div>
+       
+    </div>
+    <div class="card__confidential">
+        <i class="fas fa-user-shield icon--confidental"></i>
+        <span class="excerpt">Private request.</span>
+        This request can only be seen by you.
+    </div>
+    <div class="card__attachments">
+        <i class="fas fa-paperclip icon--attachment"></i> 
+        <span class="excerpt">Manage attachments</span>
+    </div>
+</div>
+</body>
+</html>
